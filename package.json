@@ -1,11 +1,11 @@
 {
-  "name": "http-server",
-  "version": "0.9.0",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "dynamic-http-server",
+  "version": "0.1.0",
+  "description": "A simple zero-configuration command-line dynamic http server",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexzero/http-server.git"
+    "url": "git://github.com/kennethlaugem/http-server"
   },
   "keywords": [
     "cli",
@@ -16,47 +16,6 @@
     "pretest": "common bin/http-server lib/ test",
     "test": "vows --spec --isolate"
   },
-  "contributors": [
-    {
-      "name": "Charlie Robbins",
-      "email": "charlie.robbins@gmail.com"
-    },
-    {
-      "name": "Marak Squires",
-      "email": "marak.squires@gmail.com"
-    },
-    {
-      "name": "Charlie McConnell",
-      "email": "charlie@charlieistheman.com"
-    },
-    {
-      "name": "Joshua Holbrook",
-      "email": "josh.holbrook@gmail.com"
-    },
-    {
-      "name": "Maciej Małecki",
-      "email": "maciej.malecki@notimplemented.org"
-    },
-    {
-      "name": "Matthew Bergman",
-      "email": "mzbphoto@gmail.com"
-    },
-    {
-      "name": "brad dunbar",
-      "email": "dunbarb2@gmail.com"
-    },
-    {
-      "name": "Dominic Tarr"
-    },
-    {
-      "name": "Travis Person",
-      "email": "travis.person@gmail.com"
-    },
-    {
-      "name": "Jinkwon Lee",
-      "email": "master@bdyne.net"
-    }
-  ],
   "dependencies": {
     "colors": "1.0.3",
     "corser": "~2.0.0",
@@ -78,7 +37,7 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "http-server": "./bin/http-server",
-    "hs": "./bin/http-server"
+    "dynamic-http-server": "./bin/http-server",
+    "dhs": "./bin/http-server"
   }
 }
