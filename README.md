@@ -51,3 +51,7 @@ This will install `dynamic-http-server` globally so that it may be run from the 
 `-r` or `--robots` Provide a /robots.txt (whose content defaults to 'User-agent: *\nDisallow: /')
 
 `-h` or `--help` Print this list and exit.
+
+## Include:
+
+Include files in your html-files with the following syntax: {{include page.html}}
