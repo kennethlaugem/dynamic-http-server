@@ -12,7 +12,9 @@ This will install `dynamic-http-server` globally so that it may be run from the 
 
 ## Usage:
 
-     http-server [path] [options]
+     dynamic-http-server [path] [options]
+     OR
+     dhs [path] [options]
 
 `[path]` defaults to `./public` if the folder exists, and `./` otherwise.
 
