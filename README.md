@@ -1,6 +1,6 @@
 # http-server: a command-line http server
 
-`dynamic http-server` is a work-in-progress static http server with include functionality. It is a fork of https://github.com/indexzero/http-server
+`dynamic-http-server` is a work-in-progress static http server with include functionality. It is a fork of https://github.com/indexzero/http-server
 
 # Installing globally:
 
@@ -8,7 +8,7 @@ Installation via `npm`:
 
      npm install dynamic-http-server -g
 
-This will install `http-server` globally so that it may be run from the command line.
+This will install `dynamic-http-server` globally so that it may be run from the command line.
 
 ## Usage:
 
