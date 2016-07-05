@@ -1,14 +1,12 @@
 # http-server: a command-line http server
 
-`http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
-
-![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)
+`dynamic http-server` is a work-in-progress static http server with include functionality. It is a fork of https://github.com/indexzero/http-server
 
 # Installing globally:
 
 Installation via `npm`:
 
-     npm install http-server -g
+     npm install dynamic-http-server -g
 
 This will install `http-server` globally so that it may be run from the command line.
 
@@ -17,20 +15,6 @@ This will install `http-server` globally so that it may be run from the command 
      http-server [path] [options]
 
 `[path]` defaults to `./public` if the folder exists, and `./` otherwise.
-
-# Installing as a node app
-
-     mkdir myapp
-     cd myapp/
-     jitsu install http-server
-
-*If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*
-
-## Usage
-
-### Starting http-server locally
-
-     node bin/http-server
 
 *Now you can visit http://localhost:8080 to view your server*
 

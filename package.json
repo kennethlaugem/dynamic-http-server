@@ -5,7 +5,7 @@
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kennethlaugem/http-server"
+    "url": "git://github.com/kennethlaugem/dynamic-http-server"
   },
   "keywords": [
     "cli",
@@ -32,7 +32,7 @@
     "vows": "0.7.x"
   },
   "bugs": {
-    "url": "https://github.com/nodeapps/http-server/issues"
+    "url": "https://github.com/kennethlaugem/dynamic-http-server/issues"
   },
   "license": "MIT",
   "preferGlobal": "true",
